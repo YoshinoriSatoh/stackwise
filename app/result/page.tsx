@@ -97,13 +97,13 @@ export default function ResultPage() {
         <div className="flex justify-center gap-4 mt-12">
           <button
             onClick={handleRestart}
-            className="px-6 py-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            className="px-6 py-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-xl shadow-sm hover:shadow-md hover:bg-gray-50 transition-all duration-200 transform hover:-translate-y-0.5 active:scale-95"
           >
             もう一度診断する
           </button>
           <button
             onClick={handleShare}
-            className="px-6 py-3 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl shadow-md hover:shadow-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:-translate-y-0.5 active:scale-95"
           >
             結果をシェア
           </button>

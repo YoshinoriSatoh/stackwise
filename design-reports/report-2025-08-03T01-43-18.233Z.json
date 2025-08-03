@@ -1,0 +1,312 @@
+{
+  "url": "https://stackwise-three.vercel.app/",
+  "timestamp": "2025-08-03T01-43-18.233Z",
+  "analysis": {
+    "colors": {
+      "all": [
+        [
+          "rgb(239, 239, 239)",
+          5
+        ],
+        [
+          "rgba(239, 239, 239, 0.3)",
+          2
+        ],
+        [
+          "rgb(255, 255, 255)",
+          1
+        ]
+      ],
+      "count": 3
+    },
+    "typography": {
+      "fonts": [
+        "\"Hiragino Kaku Gothic ProN\"",
+        "system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif",
+        "Arial"
+      ],
+      "sizes": [
+        "16px",
+        "32px",
+        "24px",
+        "13.3333px"
+      ],
+      "weights": [
+        "400",
+        "700"
+      ]
+    },
+    "spacing": {
+      "margins": [],
+      "paddings": []
+    },
+    "buttons": [
+      {
+        "index": 0,
+        "text": "1,000人未満",
+        "size": {
+          "width": 1280,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgb(239, 239, 239)",
+          "color": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "border": "2px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "0.2s",
+          "cursor": "default"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      },
+      {
+        "index": 1,
+        "text": "1,000-10,000人",
+        "size": {
+          "width": 1280,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgb(239, 239, 239)",
+          "color": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "border": "2px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "0.2s",
+          "cursor": "default"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      },
+      {
+        "index": 2,
+        "text": "10,000-100,000人",
+        "size": {
+          "width": 1280,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgb(239, 239, 239)",
+          "color": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "border": "2px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "0.2s",
+          "cursor": "default"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      },
+      {
+        "index": 3,
+        "text": "100,000人以上",
+        "size": {
+          "width": 1280,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgb(239, 239, 239)",
+          "color": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "border": "2px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "0.2s",
+          "cursor": "default"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      },
+      {
+        "index": 4,
+        "text": "戻る",
+        "size": {
+          "width": 28.671875,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgba(239, 239, 239, 0.3)",
+          "color": "rgba(16, 16, 16, 0.3)",
+          "borderRadius": "0px",
+          "border": "1px solid rgba(118, 118, 118, 0.3)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to",
+          "cursor": "not-allowed"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      },
+      {
+        "index": 5,
+        "text": "リセット",
+        "size": {
+          "width": 57.328125,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgb(239, 239, 239)",
+          "color": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "border": "2px outset rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to",
+          "cursor": "default"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      },
+      {
+        "index": 6,
+        "text": "次へ",
+        "size": {
+          "width": 30.671875,
+          "height": 25
+        },
+        "styles": {
+          "backgroundColor": "rgba(239, 239, 239, 0.3)",
+          "color": "rgba(16, 16, 16, 0.3)",
+          "borderRadius": "0px",
+          "border": "2px outset rgba(118, 118, 118, 0.3)",
+          "boxShadow": "none",
+          "padding": "0px",
+          "fontSize": "13.3333px",
+          "fontWeight": "400",
+          "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to",
+          "cursor": "not-allowed"
+        },
+        "hoverStyles": {
+          "hasHoverEffect": false
+        }
+      }
+    ],
+    "issues": [
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「1,000人未満」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「1,000人未満」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「1,000-10,000人」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「1,000-10,000人」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「10,000-100,000人」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「10,000-100,000人」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「100,000人以上」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「100,000人以上」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「戻る」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「戻る」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「リセット」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「リセット」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "button",
+        "severity": "high",
+        "message": "ボタン「次へ」に角丸がない",
+        "suggestion": "rounded-lg または rounded-xl を追加"
+      },
+      {
+        "type": "button",
+        "severity": "medium",
+        "message": "ボタン「次へ」に影がない",
+        "suggestion": "shadow-md hover:shadow-lg を追加"
+      },
+      {
+        "type": "typography",
+        "severity": "medium",
+        "message": "フォントファミリーが多すぎる（3種類）",
+        "suggestion": "システムフォントスタック1つに統一"
+      }
+    ],
+    "score": 25
+  },
+  "recommendations": [
+    {
+      "category": "カラーパレット",
+      "current": "3色を使用",
+      "suggestion": "\n以下のカラーパレットに統一することを推奨:\n- Primary: #3B82F6 (blue-500)\n- Primary Dark: #2563EB (blue-600)\n- Secondary: #10B981 (emerald-500)\n- Background: #FFFFFF\n- Text: #111827 (gray-900)\n- Muted: #6B7280 (gray-500)\n    "
+    },
+    {
+      "category": "ボタンデザイン",
+      "current": "基本的なスタイルのみ",
+      "suggestion": "\nモダンなボタンスタイル:\n<button className=\"\n  bg-gradient-to-r from-blue-500 to-blue-600\n  text-white font-medium\n  px-6 py-3 rounded-xl\n  shadow-md hover:shadow-xl\n  transform hover:-translate-y-0.5\n  transition-all duration-200\n  active:scale-95\n\">\n      "
+    }
+  ]
+}

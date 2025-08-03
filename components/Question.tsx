@@ -27,7 +27,7 @@ export default function Question({
           <button
             key={index}
             onClick={() => onSelectOption(index)}
-            className={`w-full text-left p-4 rounded-lg border-2 transition-all duration-200 ${
+            className={`w-full text-left p-4 rounded-xl border-2 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-md active:scale-[0.98] ${
               selectedOption === index
                 ? "border-blue-600 bg-blue-50 text-blue-900"
                 : "border-gray-200 hover:border-gray-300 hover:bg-gray-50"

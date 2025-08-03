@@ -15,7 +15,10 @@
       "Bash(npx vercel:*)",
       "Bash(npm run build:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(npm run analyze-design:prod:*)",
+      "Bash(npm run analyze-journey:prod:*)"
     ],
     "deny": []
   }

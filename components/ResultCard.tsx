@@ -9,7 +9,7 @@ interface ResultCardProps {
 export default function ResultCard({ stack, rank, isTop }: ResultCardProps) {
   return (
     <div
-      className={`bg-white rounded-lg shadow-md p-6 ${
+      className={`bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 p-6 border border-gray-100 ${
         isTop ? "ring-2 ring-blue-600 shadow-lg" : ""
       }`}
     >
@@ -45,7 +45,7 @@ export default function ResultCard({ stack, rank, isTop }: ResultCardProps) {
           {stack.technologies.map((tech, index) => (
             <span
               key={index}
-              className="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full"
+              className="px-3 py-1 text-sm bg-gradient-to-r from-gray-50 to-gray-100 text-gray-700 rounded-full border border-gray-200"
             >
               {tech}
             </span>

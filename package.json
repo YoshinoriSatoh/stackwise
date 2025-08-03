@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze-design": "node scripts/analyze-design.js",
+    "analyze-design:prod": "node scripts/analyze-design.js https://stackwise-three.vercel.app/",
+    "analyze-journey": "node scripts/analyze-design-journey.js",
+    "analyze-journey:prod": "node scripts/analyze-design-journey.js https://stackwise-three.vercel.app/"
   },
   "dependencies": {
     "next": "15.4.5",
@@ -22,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
+    "playwright": "^1.54.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

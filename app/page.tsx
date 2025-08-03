@@ -114,14 +114,14 @@ export default function Home() {
           <button
             onClick={handleBack}
             disabled={currentQuestionIndex === 0}
-            className="px-6 py-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="px-6 py-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-xl shadow-sm hover:shadow-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 transform hover:-translate-y-0.5 active:scale-95"
           >
             戻る
           </button>
 
           <button
             onClick={handleReset}
-            className="px-4 py-2 text-sm text-gray-600 hover:text-gray-800 transition-colors"
+            className="px-4 py-2 text-sm text-gray-600 hover:text-gray-800 rounded-lg transition-all duration-200 hover:bg-gray-100"
           >
             リセット
           </button>
@@ -129,7 +129,7 @@ export default function Home() {
           <button
             onClick={handleNext}
             disabled={selectedOption === null}
-            className="px-6 py-3 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="px-6 py-3 text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl shadow-md hover:shadow-xl hover:from-blue-600 hover:to-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 transform hover:-translate-y-0.5 active:scale-95"
           >
             {currentQuestionIndex === questions.length - 1
               ? "結果を見る"
