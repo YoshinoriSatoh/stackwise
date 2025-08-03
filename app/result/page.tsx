@@ -32,7 +32,10 @@ export default function ResultPage() {
       top: calculatedResults[0]?.id || "",
       score: calculatedResults[0]?.score || 0,
     };
-    const params = new URLSearchParams(shareData as any);
+    const params = new URLSearchParams({
+      top: shareData.top,
+      score: shareData.score.toString(),
+    });
     window.history.replaceState(null, "", `/result?${params.toString()}`);
   }, [router]);
 
