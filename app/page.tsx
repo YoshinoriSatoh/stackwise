@@ -92,7 +92,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto p-6">
         <header className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Stack Advisor
+            Stackwise
           </h1>
           <p className="text-gray-600">
             20個の質問に答えて、最適な技術スタックを見つけましょう

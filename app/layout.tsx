@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stack Advisor - 技術選定支援ツール",
+  title: "Stackwise - 技術選定支援ツール",
   description: "20個の質問に答えるだけで、あなたのプロジェクトに最適な技術スタックを提案します",
 };
 

@@ -50,7 +50,7 @@ export default function ResultPage() {
     const shareUrl = window.location.href;
     if (navigator.share) {
       navigator.share({
-        title: "Stack Advisor - 技術スタック診断結果",
+        title: "Stackwise - 技術スタック診断結果",
         text: `私の推奨技術スタックは「${results[0]?.name}」でした！`,
         url: shareUrl,
       });
